@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  }
+  .logo {
+    min-width: 40px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  span{
+      font-size: 45px;
+      font-weight: 500;
+  }
+  .menu{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  h2{
+      color: cornflowerblue;
+  }
+  a{
+      text-decoration: none;
+      margin-left: 15px;
+      color:cornflowerblue
+  }
+  a:hover{
+      font-size: 25px;
+  }
+  @media screen and (max-width: 600px) {
+    .userName{
+        font-size: 30px;
+    }
+  }
